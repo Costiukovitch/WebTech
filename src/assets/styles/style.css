@@ -9,3 +9,103 @@
 .test {
     color: red !important;
 }
+
+
+
+/*Параграфы*/
+.text-content {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+/*H1*/
+.main-title {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+/*H2*/
+.contact-title {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+/*H3*/
+.section-title {
+    font-size: 36px;
+    text-align: center;
+}
+
+/*H4*/
+.sub-title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+/* Поля ввода */
+.form-input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+/* Кнопка Submit */
+.submit-btn {
+    background: linear-gradient(90deg, #5A98D0 0%, #9B72CB 100%);
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* Хлебные крошки, так и не понял, почему у этого именно такое название */
+.breadcrumbs {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.breadcrumb-link {
+    background: linear-gradient(to bottom, #e0f2f1 0%, #b2dfdb 100%);
+    color: #004d40;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 500;
+    border: 1px solid #80cbc4;
+}
+
+/* Фон формы */
+
+.contact-form-wrapper {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto; 
+    padding: 40px;
+    border-radius: 20px;
+    background-image: url('/src/assets/img/background_contacts.jpg'); 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-input {
+    width: 100%;       
+    display: block;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    padding: 15px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+}
